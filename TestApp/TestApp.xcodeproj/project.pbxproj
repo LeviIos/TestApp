@@ -10,22 +10,9 @@
 		55069F542D68734A0046DCEC /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		55069F662D68734D0046DCEC /* Exceptions for "TestApp" folder in "TestApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 55069F532D68734A0046DCEC /* TestApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55069F562D68734A0046DCEC /* TestApp */ = {
+		5520227F2D6CEF3400390964 /* TestApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				55069F662D68734D0046DCEC /* Exceptions for "TestApp" folder in "TestApp" target */,
-			);
 			path = TestApp;
 			sourceTree = "<group>";
 		};
@@ -45,7 +32,7 @@
 		55069F4B2D68734A0046DCEC = {
 			isa = PBXGroup;
 			children = (
-				55069F562D68734A0046DCEC /* TestApp */,
+				5520227F2D6CEF3400390964 /* TestApp */,
 				55069F552D68734A0046DCEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				55069F562D68734A0046DCEC /* TestApp */,
+				5520227F2D6CEF3400390964 /* TestApp */,
 			);
 			name = TestApp;
 			packageProductDependencies = (
