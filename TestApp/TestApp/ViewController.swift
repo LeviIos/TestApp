@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             label.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50),
             label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 50)
         ])
-        label.font = .Roboto.bold.size(100)
+        label.font = .Roboto.thim.size(100)
         label.textColor = Colors.black
     }
 

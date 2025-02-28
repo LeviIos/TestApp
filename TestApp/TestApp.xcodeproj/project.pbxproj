@@ -10,9 +10,24 @@
 		55069F542D68734A0046DCEC /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		552024002D6D05D200390964 /* Exceptions for "TestApp" folder in "TestApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				Assets.xcassets,
+				Info.plist,
+			);
+			target = 55069F532D68734A0046DCEC /* TestApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5520227F2D6CEF3400390964 /* TestApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				552024002D6D05D200390964 /* Exceptions for "TestApp" folder in "TestApp" target */,
+			);
 			path = TestApp;
 			sourceTree = "<group>";
 		};
