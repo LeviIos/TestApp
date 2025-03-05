@@ -15,7 +15,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"/Localized: LaunchScreen.storyboard",
-				Assets.xcassets,
 				Info.plist,
 			);
 			target = 55069F532D68734A0046DCEC /* TestApp */;
