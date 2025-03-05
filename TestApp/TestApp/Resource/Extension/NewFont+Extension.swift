@@ -15,11 +15,11 @@ extension UIFont {
                 return UIFont(name: UIFont.Constants.Roboto.blackItalic, size: size)!
             }
         }
-        enum bold {
-            static func size(_ size: CGFloat) -> UIFont {
-                return UIFont(name: UIFont.Constants.Roboto.bold, size: size)!
-            }
-        }
+//        enum bold {
+//            static func size(_ size: CGFloat) -> UIFont {
+//                return (UIFont(name: UIFont.Constants.Roboto.bold, size: size))!
+//            }
+//        }
         enum boldItalic {
             static func size(_ size: CGFloat) -> UIFont {
                 return UIFont(name: UIFont.Constants.Roboto.boldItalic, size: size)!
