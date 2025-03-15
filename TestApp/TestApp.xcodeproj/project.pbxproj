@@ -14,6 +14,7 @@
 		552024002D6D05D200390964 /* Exceptions for "TestApp" folder in "TestApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
 				Info.plist,
 			);
 			target = 55069F532D68734A0046DCEC /* TestApp */;
