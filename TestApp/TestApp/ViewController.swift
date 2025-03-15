@@ -16,15 +16,16 @@ class ViewController: UIViewController {
         let label = UILabel()
         label.text = "Hello, World!"
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.numberOfLines = 0
         
         view.addSubview(label)
         
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
-            label.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50),
-            label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 50)
+            label.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 25),
+            label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 25)
         ])
-        label.font = .Roboto.thim.size(100)
+        label.font = .Roboto.thim.size(50)
         label.textColor = Colors.black
     }
 
